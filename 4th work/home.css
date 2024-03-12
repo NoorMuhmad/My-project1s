@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(123, 181, 204);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    /* Adjusted margin */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(54, 22, 22);
+    font-size: 18px;
+    transition: .3s;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.nav-links li a:hover {
+    color: skyblue;
+    background-color: rgb(54, 22, 22);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+/* Styles for video container */
+.video-container {
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+}
+
+/* Styles for dark overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .6);
+    /* Adjust the alpha value for transparency */
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /* Ensure it's above the overlay */
+}
+
+.btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn a:hover {
+    background-color: skyblue;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* Center-align the text */
+    z-index: 2;
+    /* Ensure it's above the overlay */
+}
+
+.btn h1 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.main {
+    margin: 10px auto;
+    height: 100vw;
+    height: 80vh;
+    background-color: rgba(0, 40, 66, 0.596);
+}
+
+.image {
+    text-align: center;
+}
+
+.img-1 {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.head1{
+    color: #fff;
+    margin: 20px
+}
+.para1{
+    color: #fff;
+    font-size: 20px;
+}
+.about-link {
+    color: blue;
+    font-size: 18px;
+    text-decoration: none; 
+}
+
+.about-link:hover {
+    color: darkblue; 
+}
+.footdiv{
+    background-color: #200e0e;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head4{
+    color: #fff;
+}
+.logo1{
+    width: 80px;
+    height: 30px;
+    float: inline-end;
+    margin-right: 30px;
+}
+.para4{
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}

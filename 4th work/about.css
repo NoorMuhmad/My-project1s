@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.btn-1 {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-1:hover {
+    background-color: rgb(123, 181, 204);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(54, 22, 22);
+    font-size: 18px;
+    transition: .3s;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.nav-links li a:hover {
+    color: skyblue;
+    background-color: rgb(54, 22, 22);
+    padding: 7px;
+    border-radius: 10px;
+}
+.main1{
+    background-color: rgba(208, 209, 211, 0.233);
+}
+.main {
+    width: 100%;
+    height: 50vh;
+}
+
+.main,
+.btn-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-2 {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 10%;
+    background-color: rgb(57, 57, 85);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.1s ease-in;
+}
+
+.btn-2:hover {
+    background-color: rgba(15, 15, 235, 0.781);
+}
+
+.btn-2,
+.para2 {
+    margin: 10px;
+}
+
+.para2 {
+    font-size: larger;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+    width: 70%;
+}
+
+
+
+.image {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.gallery {
+    padding: 10px;
+}
+
+.images {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+
+.image,
+.para3 {
+    margin: 7px;
+}
+
+.bottom {
+    height: 70vh;
+    padding: 30px;
+}
+
+.text,
+.head3,
+.head2,
+.head4,
+.para4 {
+    margin: 10px 20px ;
+}
+
+.footdiv{
+    background-color: #200e0e;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head5{
+    color: #fff;
+}
+.logo1{
+    width: 80px;
+    height: 30px;
+    float: inline-end;
+    margin-right: 30px;
+}
+.para5{
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+}
